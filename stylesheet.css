@@ -1,0 +1,54 @@
+.body{
+  font-family: "Noto Sans";
+  background: rgb(175, 200, 255);
+}
+
+.Title{
+  text-align: center;
+  font-size: 20px;
+}
+
+.Instructions{
+  text-align: center;
+  font-size: 12px;
+}
+
+.WeaponDamage{
+  background: rgb(175, 200, 255);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 3px;
+}
+
+.Strength{
+  background: rgb(175, 200, 255);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 3px;
+}
+
+.SharpLevel{
+  background: rgb(175, 200, 255);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 3px;
+}
+
+.CritDamage{
+  background: rgb(175, 200, 255);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 3px;
+}
+
+.CombatLevel{
+  background: rgb(175, 200, 255);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 3px;
+}
+
+.CalculateButton{
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(0, 0, 0);
+  background: rgb(175, 200, 255);
+  border-radius: 3px;
+  font-size: 15px;
+  padding: 5px 5px;
+  font-family: "Noto Sans";
+}
