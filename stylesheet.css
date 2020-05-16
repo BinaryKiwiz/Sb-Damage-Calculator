@@ -43,6 +43,12 @@
   border-radius: 3px;
 }
 
+.FirstStrikeLevel{
+  background: rgb(175, 200, 255);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 3px;
+}
+
 .CalculateButton{
   color: rgb(0, 0, 0);
   border: 1px solid rgb(0, 0, 0);
