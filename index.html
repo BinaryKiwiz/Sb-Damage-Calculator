@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Damage Calculator
+    </title>
+  </head>
+  <body class = "body">
+    <div class = "Title">
+      Damage Calculator
+    </div>
+    <div class = "Instructions">
+      Insert your stats while holding your weapon below
+    </div>
+    <form class = "Input" id = "Input">
+      <label for = "WeaponDamage">
+        Weapon Damage: 
+      </label>
+      <input type = "text" id = "WeaponDamage" class = "WeaponDamage">
+      <br>
+      <br>
+      <label for = "Strength">
+        Strength:           
+      </label>
+      <input type = "text" id = "Strength" class = "Strength">
+      <br>
+      <br>
+      <label for = "SharpLevel">
+        Sharpness Level: 
+      </label>
+      <input type = "text" id ="SharpLevel" class = "SharpLevel">
+      <br>
+      <br>
+      <label for = "CritDamage">
+        Critical Damage: 
+      </label>
+      <input type="text" id = "CritDamage" class = "CritDamage">
+      <br>
+      <br>
+      <label for = "CombatLevel">
+        Combat Level:
+      </label>
+      <input type = "text" id = "CombatLevel" class = "CombatLevel">
+      <br>
+      <br>
+    </form>
+    <div class = "CalculateButtonDiv" id = "CalculateButtonDiv">
+      <button class = "CalculateButton" id = "CalculateButton" onclick = "Calculate()">
+        Calculate
+      </button>
+    </div>
+    <br>
+    <div class = "DamageDiv" id = "DamageDiv">
+      Base Damage: 
+      <span class = "BaseDamage" id = "BaseDamage">
+        0
+      </span>
+      <br>
+      Crit Damage:
+      <span class = "FinalDamage" id = "FinalDamage">
+        0
+      </span>
+    </div>
+  </body>
+  <script src="javascript.js"></script>
+  <link rel="icon" type="image/png" href="icon.png">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+</html>
